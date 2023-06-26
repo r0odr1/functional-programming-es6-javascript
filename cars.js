@@ -121,7 +121,7 @@ let list = cars.map(function (arr) {
 })
 console.log(list);
 
-const suma = cars.reduce((acc, cars) => {
+const bmwSum = cars.reduce((acc, cars) => {
     return acc + cars.price;
 },0);
-console.log(suma)
+console.log(bmwSum)
